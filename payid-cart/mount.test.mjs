@@ -10,14 +10,13 @@ const root = new URL('..', import.meta.url);
 const expected = {
   "index.html": {
     "storeId": "aussie-dash",
-    "currency": null,
+    "currency": "USD",
     "items": [
       {
         "id": "full",
         "name": "Coffeebreak Aussie Dash by Coffeebreak",
-        "amount": null,
-        "currency": null,
-        "gap": "Price coming soon. No payment is requested."
+        "amount": "5.00",
+        "currency": "USD"
       }
     ]
   }
